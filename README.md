@@ -1,13 +1,26 @@
 # Swipe Jobs Job Picker
 
-
 ## Installation
+### Clone Repo
 ```bash
 git clone https://github.com/TheTheoM/Swipe-Jobs-Job-Picker.git
 cd https://github.com/TheTheoM/Swipe-Jobs-Job-Picker.git
+```
+
+### Copy .env.example to .env
+Enter credentials from the email.
+```bash
+VITE_WORKER_ID=''
+VITE_API_BASE_URL=''
+VITE_LOCATION_IQ_ACCESS_TOKEN=''
+```
+### Run Frontend
+```bash
 npm install
 npm run dev
 ```
+Visit typically http://localhost:5173 in your browser
+
 
 ## Run Tests
 
