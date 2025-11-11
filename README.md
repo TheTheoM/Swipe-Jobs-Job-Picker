@@ -4,7 +4,7 @@
 ### Clone Repo
 ```bash
 git clone https://github.com/TheTheoM/Swipe-Jobs-Job-Picker.git
-cd https://github.com/TheTheoM/Swipe-Jobs-Job-Picker.git
+cd Swipe-Jobs-Job-Picker
 ```
 
 ### Copy .env.example to .env
