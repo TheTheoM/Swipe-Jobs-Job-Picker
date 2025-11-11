@@ -44,7 +44,7 @@ const JobCard: React.FC<JobProps> = ({ jobData, onAccept, onReject }) => {
             <Typography variant='body1' component='h6' color='text.primary' sx={{ fontWeight: 'bold', textTransform: 'uppercase' }}>
               Distance
             </Typography>
-            <Typography variant='h3' component='div' color='white' sx={{ fontWeight: 'bold', mt: 0.5, lineHeight: 1 }}>
+            <Typography variant='h3' component='div' color='white' sx={{ fontWeight: 'bold', mt: 0.5, lineHeight: 1}}>
               {milesToTravel}
             </Typography>
           </Box>

@@ -103,7 +103,7 @@ const JobsPage: React.FC = () => {
   };
 
   return (
-    <Container maxWidth='sm' sx={{ p: 2, display: 'flex', justifyContent: 'center', alignItems: 'center' }} id='modal-root'>
+    <Container maxWidth='sm' sx={{ p: 2, display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: "100vh" }} id='modal-root'>
       <Box sx={{ width: '100%' }}>
         <Header name={`${profile.firstName} ${profile.lastName}`} />
         <Fade in={true} timeout={300} key={currentJob.jobId}>
